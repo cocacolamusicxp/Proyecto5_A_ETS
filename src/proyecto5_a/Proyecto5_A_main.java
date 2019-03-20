@@ -3,6 +3,9 @@ package proyecto5_a;
 import static proyecto5_a.Proyecto_5_A_metodos.mejorAlumno;
 import static proyecto5_a.Proyecto_5_A_metodos.mejorNota;
 
+/*Esto es un comentario
+ocupando varias líneas*/
+
 /**@author Daniel
  */
 public class Proyecto5_A_main {
@@ -11,6 +14,6 @@ public class Proyecto5_A_main {
         String[] alumnos = {"Rodrigo del Pueblo", "Roberto Carlos", "Enrique", "Irelia", "Sebas", "Tian", "Ernesto", "César", "Akali", "Snoopy"};
         
         System.out.println("El índice buscado es: "+mejorNota(notas)+"\n");
-        mejorAlumno(alumnos,mejorNota(notas));
+        mejorAlumno(alumnos,mejorNota(notas));//Esto es otro comentario
     }
 }
