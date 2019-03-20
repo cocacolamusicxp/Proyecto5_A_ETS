@@ -11,13 +11,8 @@ public class Proyecto5_A_main {
         
         double[] notas = {2, 3.6, 8.4, 6.32, 9.75, 1.75, 4.56, 4.9, 6.9, 4.2};
         String[] alumnos = {"Rodrigo del Pueblo", "Roberto Carlos", "Enrique", "Irelia", "Sebas", "Tian", "Ernesto", "César", "Akali", "Snoopy"};
-
-        try{
-            System.out.println("El índice buscado es: "+obj.mejorNota(notas)+"\n");
-            obj.mejorAlumno(alumnos,obj.mejorNota(notas));
-        }
-        catch(ArrayIndexOutOfBoundsException e){
-            System.out.println("--Ha ocurrido un error en la lectura del array--");
-        }
+        
+        System.out.println("El índice buscado es: "+obj.mejorNota(notas)+"\n");
+        obj.mejorAlumno(alumnos,obj.mejorNota(notas));//Esto es otro comentario
     }
 }
